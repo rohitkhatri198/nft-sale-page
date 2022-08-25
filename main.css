@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  margin: 0 auto;
+}
+.content {
+  background: #000;
+  background-size: cover;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  padding: 30px 40px;
+}
+.navBar .logo {
+  margin-left: 148px;
+}
+
+.navBar .button p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+}
+.navBar .button p:hover {
+  background: #a9ff1c;
+  color: #000;
+  border: 1px solid #000;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+.nft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nft .ourNFT {
+  padding-left: 9.125rem;
+}
+
+.ourNFT .design2{
+  display: none;
+}
+.nft .dont {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  color: #ffffff;
+}
+.nft .nftTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  color: #a9ff1c;
+}
+.nft .button2 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+}
+.nft .button2 p:hover {
+  background: #a9ff1c;
+  color: #000;
+  border: 1px solid #000;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+.twoBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0 75px;
+}
+.twoBoxes .firstBox {
+  max-width: 500px;
+}
+.twoBoxes .firstBox p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.twoBoxes .firstBox .erc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 140px;
+  letter-spacing: -0.07em;
+  color: #ffffff;
+}
+.twoBoxes .secondBox {
+  padding: 109px 0 0 23px;}
+.twoBoxes .secondBox .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 10px;
+}
+.roadMap {
+  background-image: url(images/roadMap.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1235px;
+}
+.roadMap .mainRoadmap2 {
+  display: none;
+}
+.footer {
+  background: #000;
+  background-size: cover;
+  padding: 6rem 0 3rem;
+}
+.footer .textContainer {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.footer .textContainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.footerBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6rem 0 1rem;
+}
+.footerBottom .links {
+  padding-top: 20px;
+}
+.footerBottom .links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  margin-right: 0.8rem;
+  font-size: 0.75rem;
+}
+.footerBottom .links a:hover {
+  color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 767px) {
+  /*navBar*/
+
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+  }
+  .navBar .vector {
+    display: none;
+  }
+  .navBar .logo {
+    margin-left: 6px;
+  }
+  .navBar .button {
+    display: none;
+  }
+  .ourNFT{
+    padding: 0;
+  }
+  .ourNFT .design{
+    display: none;
+  }
+  .ourNFT .design2{
+    display: flex;
+    justify-content: center;
+  }
+  /*twoBoxes*/
+
+  .twoBoxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 47px 22px 35px;  }
+  .firstBox .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+  }
+  .firstBox .erc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    letter-spacing: -0.07em;
+    color: #FFFFFF;
+  }
+  .nft .ourNFT{
+    margin-right: 9rem;
+  }
+  .nft .ourNFT .design{
+    padding: unset;
+    width: unset;
+  }
+  /* roadMap */
+  .roadMap {
+    width: unset;
+    background-image: url(images/Group\ 19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1573.65px;
+  }
+  .footer .textContainer{
+    padding: 10px;
+  }
+  .footerBottom {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footerBottom div{
+    padding: 20px 0;
+  }
+  .twoBoxes .secondBox {
+    padding: 30px 0 0 0px;
+  }
+}
