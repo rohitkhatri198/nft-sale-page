@@ -46,10 +46,13 @@
   align-items: center;
 }
 .nft .ourNFT {
-  padding-left: 9.125rem;
+  padding-left: 8.125rem;
 }
 
 .ourNFT .design2{
+  display: none;
+}
+.ourNFT .design3{
   display: none;
 }
 .nft .dont {
@@ -96,7 +99,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  0 75px;
+  padding:  42px 19px 20px;
 }
 .twoBoxes .firstBox {
   max-width: 500px;
@@ -119,17 +122,19 @@
   color: #ffffff;
 }
 .twoBoxes .secondBox {
-  padding: 109px 0 0 23px;}
+  padding: 84px 0 0 23px;
+}
+
 .twoBoxes .secondBox .text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 23px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 10px 10px;
+  padding: 6px 10px;
 }
 .roadMap {
   background-image: url(images/roadMap.png);
@@ -227,7 +232,9 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-
+  }
+  .twoBoxes .secondBox {
+    padding: 30px 0 0 99px;
   }
   .firstBox .erc{
     font-family: 'Inter';
@@ -243,6 +250,9 @@
   .nft .ourNFT .design{
     padding: unset;
     width: unset;
+  }
+  .nft .ourNFT .design3{
+    display: none;
   }
   /* roadMap */
   .roadMap {
@@ -262,7 +272,54 @@
   .footerBottom div{
     padding: 20px 0;
   }
-  .twoBoxes .secondBox {
-    padding: 30px 0 0 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navBar .logo {
+    margin-left:none;
+  }
+  .nft .ourNFT .design{
+    padding: unset;
+    width: unset;
+    display: none;
+  }
+  .nft{
+    position: relative;
+  }
+  .nft .ourNFT{
+    display: flex;
+    justify-content: center;
+  }
+  .ourNFT .design3{
+    display: block;
+    padding-right: 69px;
+  }
+  .navBar .button p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 24px;
+  }
+  .twoBoxes .secondBox .text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 10px;
+  }
+  .roadMap {
+    background-image: url(images/roadMap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 814px;
   }
 }
